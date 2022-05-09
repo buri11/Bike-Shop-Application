@@ -29,3 +29,7 @@ Moreover, I created test classes for every layer: controller, service and data l
 In the test class for the controller I verified that that the registration of a new product is done successfully by the controller class, helped by a connection to the service layer. 
 In the service test class the verifications were done on the getProducts() method and for all the validations. 
 Lastly, the test class for the repository layer checks other validations used indirectly by the service layer itself.
+
+Here is a diagram of the data flow:
+
+![data_flow](https://user-images.githubusercontent.com/72409630/167450047-dac42f71-7b26-448b-bb2b-dc2962d6af64.png)
