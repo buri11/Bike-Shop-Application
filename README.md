@@ -15,10 +15,12 @@ in the database.
 
 
 The controller layers gets the requests from the user and it passes them on to the service layer. The service layer 
-does the logic of the application like verifying that the entries are valid and so on.
+does the logic of the application like verifying that the entries are valid and such.
 When all the logic is fulfilled the changes must then be forwarded to the database. This is done by the service layer
 calling the repository layer, which is an interface but has some useful methods implemented.
 
-We have implemented in the controller methods for GET, POST, DELETE and PUT. The GET method simply returns the 
+I have implemented in the controller methods for GET, POST, DELETE and PUT. The GET method simply returns the 
 specified table from the database. POST adds a new entry to a table, while DELETE removes one. The PUT method updates a 
-row from a specific table; the new parameters can be of any number and can be in any order.
+row from a specific table; the new parameters can be of any number and can be in any order, this meaning that we can edit any field of any entry.
+
+I have generated JavaDoc tags for all the classes and writtten descriptions for every item. After all of this I generated the JavaDoc document itself.
