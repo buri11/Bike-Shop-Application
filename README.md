@@ -9,6 +9,8 @@ This application is organised in multiple layers, 3 to be exact: controller, ser
 Each layer is situated in its own package, just like the class that defines the object from the one table that we have
 in the database.
 
+![flow_diagram](UML_diagram.png)
+
 
 The controller layers gets the requests from the user and it passes them on to the service layer. The service layer 
 does the logic of the application like verifying that the entries are valid and so on.
