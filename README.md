@@ -5,6 +5,8 @@
 This is a Spring application that is designed for a Bike Shop. It has a database containing 1 table (as of now) that
 represents the products that the shop has in stock.
 
+![flow_diagram](DB_Diagram.jpeg)
+
 This application is organised in multiple layers, 3 to be exact: controller, service and repository layer.
 Each layer is situated in its own package, just like the class that defines the object from the one table that we have
 in the database.
