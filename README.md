@@ -24,3 +24,8 @@ specified table from the database. POST adds a new entry to a table, while DELET
 row from a specific table; the new parameters can be of any number and can be in any order, this meaning that we can edit any field of any entry.
 
 I have generated JavaDoc tags for all the classes and writtten descriptions for every item. After all of this I generated the JavaDoc document itself.
+
+Moreover, I created test classes for every layer: controller, service and data layer. 
+In the test class for the controller I verified that that the registration of a new product is done successfully by the controller class, helped by a connection to the service layer. 
+In the service test class the verifications were done on the getProducts() method and for all the validations. 
+Lastly, the test class for the repository layer checks other validations used indirectly by the service layer itself.
