@@ -1,0 +1,8 @@
+com.example.bikeshop
+com.example.bikeshop.businesslogic
+com.example.bikeshop.controller
+com.example.bikeshop.controllerTest
+com.example.bikeshop.product
+com.example.bikeshop.repository
+com.example.bikeshop.repoTest
+com.example.bikeshop.serviceTest
